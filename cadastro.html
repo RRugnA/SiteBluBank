@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <title>BluBank Motoboy - Cadastro</title>   
+    <link rel="stylesheet" type="text/css" href="bootstrap-4.4.1/dist/css/bootstrap.min.css"> 
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body> 
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="link-nav" href="index.html">
+                    <div class="navbar-brand"><img class="logo" src="src/imgs/BluBankLogo.jpeg"></div>
+                </a>
+            </div>
+        </nav>
+    </header> 
+
+    <div class="img-sup-cadastro">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-12 text-center">
+                    <h2 class="font-18 msg-color-white">BluBank<span class="bold-700-msg"> Motoboy</span></h2>
+                    <h1 class="font-39 black-msg msg-color-white">Falta pouco pra trocar<br>de moto? Agora não<br>falta mais nada.</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="div-azul-cadastro background-azul">
+        <div class="container pt-3">
+            <div class="row no-gutters justify-content-center align-items-start">
+                <div class="col-8 col-sm-8 col-md-6 col-lg-4 text-center">
+                    <img class="img-cartao-azul img-fluid" src="src/imgs/Cartao-Transp.png">
+                </div>
+                <div class="col-9 col-sm-10 col-md-6 col-lg-4 espaco-horiz-1 pl-3 py-5">
+                    <h2 class="font-19 msg-color-white">Liberação de <span class="bold-700-msg">empréstimo</span> de até</h2>
+                    <h1 class="font-60 msg-color-white black-msg espaco-vert-1">R$3.500</h1>
+                    <h2 class="font-16 msg-color-white"><span class="black-msg font-24">mesmo</span> se você estiver <span class="bold-700-msg font-24">negativada!</span></h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="background-branco pt-5">
+        <div class="container pt-3">
+            <div class="row justify-content-center">
+                <div class="col-8 col-sm-12  no-gutters">
+                    <h2 class="font-39 color-azul-escuro black-msg text-center espaco-horiz-1 mb-0">Solicite agora e receba a</h2>
+                    <h2 class="font-39 color-azul-escuro black-msg text-center espaco-horiz-1">confirmação em até 24h.</h2>
+                </div>
+                <div class="col-8 col-sm-12 pt-1">
+                    <p class="font-13 color-azul-escuro espaco-horiz-1 espaco-vert-2 text-center">Para solicitar seu cartão BluBank é só preencher
+                        <br>os dados corretamente e enviar para análise.
+                        <br>
+                        <br>Seus dados serão analisados e caso aprovado você receberá uma e-mail com o boleto no valor
+                        <br>de R$44,99 referente a taxa de emissão e entrega do cartão BluBank. O boleto deve ser pago
+                        <br>antecipadamente para confecção e entrega do seu cartão.
+                    ​​​</p>
+                </div>
+                <div class="col-8 col-sm-12 pt-2">
+                    <h2 class="font-20 color-azul-claro black-msg text-center espaco-horiz-1">Após receber o cartão e realizar a ativação você solicita 
+                        <br>no site o limite de crédito entre R$500 e R$3500 mesmo 
+                        <br>negativado ou sem comprovação de renda
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container pb-5">        
+        <div class="row justify-content-center">
+            <div class="col-lg-6 background-azul text-center py-5">
+                <img class="img-fluid" src="src/imgs/mastercard-logo-azul.png">
+            </div>
+            
+            <div class="w-100"></div>
+
+            <div class="col-lg-6 borda-form pt-3 pl-5 pb-5">
+                <form method="get">
+                    <div class="color-azul-escuro font-14 bold-msg justify-content-center pb-3">*Todos campos são de preenchimento obrigatório.
+                    </div>              
+                    <div class="form-group row mb-0">
+                        <label for="cpf-num" class="col-sm-5 col-form-label font-15 bold-msg color-azul-claro espaco-vert-1">CPF:<br>
+                            <span class="form-detalhes">somente números<br>sem traços, pontos, etc...</span></label>                        
+                        <div class="col-11 col-sm-6 borda-item-form">
+                            <input type="text" required name="cpf" class="form-control-plaintext pt-1" id="cpf-num">
+                        </div>
+                    </div>
+
+                    <div class="form-group row mb-0">
+                        <label for="cpf-num2" class="col-sm-5 col-form-label font-15 bold-msg color-azul-claro espaco-vert-1">CPF<br>confirmação:<br>
+                            <span class="form-detalhes">confirme o número do seu CPF</span></label>
+                        <div class="col-11 col-sm-6 borda-item-form">
+                            <input type="text" required name="cpf-conf" class="form-control-plaintext pt-1" id="cpf-num2">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="nome-id" class="col-sm-3 col-form-label font-15 bold-msg color-azul-claro espaco-vert-1">Nome<br>completo:</label>
+                        <div class="col-11 col-sm-8 borda-item-form">
+                            <input type="text" required name="nome" class="form-control-plaintext pt-1" id="nome-id">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="email-id" class="col-sm-3 col-form-label font-15 bold-msg color-azul-claro">Email:</label>
+                        <div class="col-11 col-sm-8 borda-item-form">
+                            <input type="email" required nome="email" class="form-control-plaintext pt-1" id="email-id">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="ddd-id" class="col-sm-5 col-form-label font-15 bold-msg color-azul-claro">DDD da sua cidade:</label>
+                        <div class="col-11 col-sm-6 borda-item-form">
+                            <input type="text" required nome="ddd" class="form-control-plaintext pt-1" id="ddd-id">
+                        </div>
+                    </div>
+
+                    <div class="form-group row mb-0">
+                        <label for="cel-id" class="col-sm-5 col-form-label font-15 bold-msg color-azul-claro espaco-vert-1">Telefone Celular<br>(SEM DDD):<br>
+                            <span class="form-detalhes">Somente números</span></label>
+                        <div class="col-11 col-sm-6 borda-item-form">
+                            <input type="text" required nome="cel" class="form-control-plaintext pt-1" id="cel-id">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="estado-id" class="col-sm-3 col-form-label font-15 bold-msg color-azul-claro">Estado:</label>
+                        <div class="col-11 col-sm-8 borda-item-form">
+                            <input type="text" required nome="estado" class="form-control-plaintext pt-1" id="estado-id">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="cidade-id" class="col-sm-3 col-form-label font-15 bold-msg color-azul-claro">Cidade:</label>
+                        <div class="col-11 col-sm-8 borda-item-form">
+                            <input type="text" required nome="cidade" class="form-control-plaintext pt-1" id="cidade-id">
+                        </div>
+                    </div>
+                    
+                    <div class="form-group row">
+                        <label for="endereco-id" class="col-sm-3 col-form-label font-15 bold-msg color-azul-claro">Endereço:</label>
+                        <div class="col-11 col-sm-8 borda-item-form">
+                            <input type="text" required nome="endereco" class="form-control-plaintext pt-1" id="endereco-id">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="bairro-id" class="col-sm-3 col-form-label font-15 bold-msg color-azul-claro">Bairro:</label>
+                        <div class="col-11 col-sm-8 borda-item-form">
+                            <input type="text" required nome="bairro" class="form-control-plaintext pt-1" id="bairro-id">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="num-id" class="col-sm-3 col-form-label font-15 bold-msg color-azul-claro">Número:</label>
+                        <div class="col-11 col-sm-8 borda-item-form">
+                            <input type="text" required nome="numero" class="form-control-plaintext pt-1" id="num-id">
+                        </div>
+                    </div>                    
+                    
+                    <div class="form-group row">
+                        <label for="complemento-id" class="col-sm-5 col-form-label font-15 bold-msg color-azul-claro">Complemento:</label>
+                        <div class="col-11 col-sm-6 borda-item-form">
+                            <input type="text" nome="complemento" class="form-control-plaintext pt-1" id="complemento-id">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="renda-id" class="col-sm-6 col-form-label font-15 bold-msg color-azul-claro espaco-horiz-1">Qual a sua renda mensal?:</label>
+                        <div class="col-sm-4">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="renda-mensal" id="opcao-1" value="opcao1" checked>
+                                <label class="form-check-label" for="opcao-1">
+                                    <span class="font-12 bold-msg color-azul-claro">até R$1 mil</span>
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="renda-mensal" id="opcao-2" value="opcao2">
+                                <label class="form-check-label" for="opcao-2">
+                                    <span class="font-12 bold-msg color-azul-claro">de R$1 mil à R$3 mil</span>
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="renda-mensal" id="opcao-3" value="option3">
+                                <label class="form-check-label" for="opcao-3">
+                                    <span class="font-12 bold-msg color-azul-claro">de R$3 mil à R$7 mil</span>
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="renda-mensal" id="opcao-4" value="option4">
+                                <label class="form-check-label" for="opcao-4">
+                                    <span class="font-12 bold-msg color-azul-claro">acima de R$7 mil</span>
+                                </label>
+                            </div>
+                        </div> 
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="renda-id" class="col-sm-7 col-form-label font-15 bold-msg color-azul-claro espaco-vert-1 espaco-horiz-1">
+                            Li e concordo com os termos<br>
+                            e condições do BluBank Mastercard?</label>
+                        <div class="col-sm-2">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" name="aceite-termos" id="opcao-sim" value="opcao1">
+                                <label class="form-check-label font-14 bold-msg color-azul-claro" for="opcao-sim">Sim</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="renda-id" class="col-sm-7 col-form-label font-15 bold-msg color-azul-claro espaco-vert-1 espaco-horiz-1">
+                            Estou ciente da cobrança de R$44,99<br>
+                            referente a taxa de adesão, taxa de<br>
+                            correio e confecção do cartão<br>
+                            BluBank MasterCard?</label>
+                        <div class="col-sm-2">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" name="aceite-taxa" id="opcao-sim2" value="opcao1">
+                                <label class="form-check-label font-14 bold-msg color-azul-claro" for="opcao-sim2">Sim</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="div-btn-branco text-center pt-3">
+                            <button type="submit" class="btn btn-solicitar-body msg-color-white font-17"><span class="btn-icone msg-color-white">Solicitar meu BluBank</span></button> 
+                    </div>
+                </form>  
+            </div>
+                   
+        </div>       
+    </div>
+
+    <footer class="background-azul-footer py-5">
+        <div class="container">
+            <div class="row justify-content-center align-items-end">
+                <div class="col-2">
+                    <img class="cartao-footer img-fluid" src="src/imgs/cartaofooter.png">
+                </div>
+                <div class="col-6  msg-footer text-center">
+                    <h2 class="font-8 msg-color-white">Site produzido sob licença de BlueBank Brasil@ - CNPJ - 31.826.905/0001-49</h2>
+                </div>
+                <div class="col-2">
+                    <h3 class="font-10 msg-color-white bold-msg"><a class="link-body" href="termos.html">Termos e condições</a></h3>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="bootstrap-4.4.1/dist/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/7113dca687.js"></script>
+</body>
+
+</html>

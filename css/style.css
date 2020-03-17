@@ -1,0 +1,225 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    font-family: 'Montserrat';
+}
+
+
+header{
+    background-color: #061550;
+}
+/* FONTES */
+.font-8{
+    font-size: 8px;
+}
+.font-9{
+    font-size: 9px;
+}
+.font-10{
+    font-size: 10px;
+}
+.font-12{
+    font-size: 12px;
+}
+.font-14{
+    font-size: 14px;
+}
+.font-15{
+    font-size: 15px;
+}
+.font-16{
+    font-size: 16px;
+}
+.font-17{
+    font-size: 17px;
+}
+.font-18{
+    font-size: 18px;
+}
+.font-19{
+    font-size: 19px;
+}
+.font-20{
+    font-size: 20px;
+}
+.font-24{
+    font-size: 24px;
+}
+.font-28{
+    font-size: 28px;
+}
+.font-29{
+    font-size: 29px;
+}
+.font-39{
+    font-size: 39px;
+}
+.font-41{
+    font-size: 41px;
+}
+.font-45{
+    font-size: 45px;
+}
+.font-47{
+    font-size: 47px;
+}
+.font-60{
+    font-size: 60px;
+}
+/* COLOR */
+.msg-color-white{
+    color:white;
+}
+.color-azul-claro{
+    color: #005A91;
+}
+.color-azul-escuro{
+    color:#061550;
+}
+.background-azul-footer{
+    background-color:#061550;
+}
+.background-azul{
+    background-color: #005A91; 
+}
+.background-amarelo{
+    background-color: #F79E1A;
+}
+.background-branco{
+    background-color: white;
+}
+.btn-solicitar{
+    color:#06A18A;
+    border: 3px solid #06a18A;   
+}
+.btn-solicitar:hover{
+    color:rgb(10, 216, 185);
+    border: 3px solid rgb(10, 216, 185);
+  }
+.btn-solicitar-body{
+    font-size: 15px;
+    font-weight: bold ;
+    background-color: #06a18A;
+    padding: 15px 35px;
+    margin-top: 1%;
+}
+.btn-solicitar-body:hover{
+    background-color:rgb(4, 116, 99);
+  }
+.btn-icone::after{
+    content: "\f054";
+    font-family: fontAwesome;
+    font-size: 15px;
+    padding-left: 5px;
+}
+.link-body{
+    text-decoration:none;
+    color: white;
+}
+.link-body:hover{
+    text-decoration:none;
+    color: white;
+}
+.link-nav{
+    text-decoration: none;
+    color:#06A18A;
+}
+.link-nav:hover{
+    text-decoration: none;
+    color:#06A18A;
+}
+.img-superior{
+    background-image: url(../src/imgs/BluBank.Motoboy.Landing_v2-05.png);
+    text-align: center;
+    padding-bottom: 8%;
+    background-size: cover;
+    background-position: center center;
+}
+.bold-msg{
+    font-weight: bold;
+}
+.black-msg{
+    font-weight: 900;    
+}
+.bold-700-msg{
+    font-weight: 700;
+}
+.cartao-blu{
+    margin-top:-8%;
+}
+.msg-liberacao{
+    text-align:center;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    letter-spacing: -2px;
+}
+.msg4{
+    font-size: 32px;    
+    font-weight: 300;
+}
+.msg5{
+    font-size: 99px;
+    font-weight: 900;
+    line-height: 0.8;
+}
+.msg-amarelo{
+    font-size: 15px;
+    font-weight: bolder;
+    padding-top: 3%;
+    letter-spacing: -1px;
+}
+hr{
+    border-top: 1px solid #804DFF;
+    margin: 48px 150px 48px 150px;
+}
+.msg7{
+    font-size: 23px;
+    letter-spacing: -1px;
+    font-weight: 400;
+}
+.msg8{
+    font-size: 71px;
+    line-height: 0.8;
+}
+.espaco-cartao-azul{
+    z-index: 10;
+  }
+
+/* Pag. Cadastro */
+.img-sup-cadastro{
+    background-image: url(../src/imgs/BluBank.Motoboy.Landing_v2-04.png);
+    background-size: cover;
+    background-position: center center;
+}
+.espaco-horiz-1{
+    letter-spacing: -1px;
+}
+.espaco-horiz-2{
+    letter-spacing: -2px;
+}
+.espaco-vert-1{
+    line-height: 85%;
+}
+.espaco-vert-2{
+    line-height: 100%;
+}
+.div-azul-cadastro{
+    margin-bottom: -4%;
+}
+.borda-form{
+    border: 1px solid #005A91;
+}
+.borda-item-form{
+    border: 1px solid #005A91;
+    border-radius: 3px;
+    height: 32px;
+}
+.form-detalhes{
+    font-size: 9px;
+    color: gray;
+    font-weight: normal;
+}
