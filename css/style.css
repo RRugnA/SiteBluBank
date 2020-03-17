@@ -217,11 +217,7 @@ hr{
 .borda-form{
     border: 1px solid #005A91;
 }
-.borda-item-form{
-    border: 1px solid #005A91;
-    border-radius: 3px;
-    height: 32px;
-}
+
 .form-detalhes{
     font-size: 9px;
     color: gray;
