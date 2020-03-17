@@ -187,8 +187,12 @@ hr{
 }
 .espaco-cartao-azul{
     z-index: 10;
-  }
-
+}
+.chama-whatsapp{
+    z-index: 999999;
+    bottom: 10px;
+    right: 17px;
+}
 /* Pag. Cadastro */
 .img-sup-cadastro{
     background-image: url(../src/imgs/BluBank.Motoboy.Landing_v2-04.png);
